@@ -1,0 +1,45 @@
+from tkinter import *
+from tkinter import messagebox
+
+
+class Application(Frame):
+
+    def __init__(self,master=None):
+        super().__init__(master)
+        self.master = master
+        self.pack()
+        self.createWidget()
+
+    def createWidget(self):
+
+
+        self.button01 = Button(self,text = '登陆',command = self.login)
+        self.button01.pack()
+        self.button02 = Button(self, text='注册', command=self.login)
+        self.button02.pack()
+        self.button03 = Button(self, text='全部信息', command=self.login)
+        self.button03.pack()
+        self.button04 = Button(self, text='待办事项', command=self.login)
+        self.button04.pack()
+        self.button05 = Button(self, text='日程记录', command=self.login)
+        self.button05.pack()
+        self.button06 = Button(self, text='个人信息', command=self.login)
+        self.button06.pack()
+
+    def login(self):
+#        self.messagebox()
+        messagebox.button03 = Button(self, text='全部信息', command=self.login)
+        self.button03.pack()
+        self.button04 = Button(self, text='待办事项', command=self.login)
+        self.button04.pack()
+        self.button05 = Button(self, text='日程记录', command=self.login)
+        self.button05.pack()
+        self.button06 = Button(self, text='个人信息', command=self.login)
+        self.button06.pack()
+#        messagebox.showinfo('双端同步备忘录系统','登陆成功')
+
+if __name__ == '__main__':
+    root = Tk()
+    root.geometry("400x200+200+300")
+    app = Application(master=root)
+    root.mainloop()
