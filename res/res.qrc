@@ -1,0 +1,39 @@
+<RCC>
+  <qresource prefix="res">
+    <file>headimg1.png</file>
+    <file>header.png</file>
+    <file>add.png</file>
+    <file>add_fill.png</file>
+    <file>back.png</file>
+    <file>back_1.png</file>
+    <file>back_2.png</file>
+    <file>calendar.png</file>
+    <file>calendar_fill.png</file>
+    <file>clock.png</file>
+    <file>close.png</file>
+    <file>close_red.png</file>
+    <file>collection.png</file>
+    <file>confirm.png</file>
+    <file>delete1.png</file>
+    <file>down.png</file>
+    <file>favorites_fill.png</file>
+    <file>header.png</file>
+    <file>headimg.png</file>
+    <file>ic_launcher.png</file>
+    <file>ic_launcher_round.png</file>
+    <file>icon.png</file>
+    <file>login.png</file>
+    <file>loginbg.png</file>
+    <file>loginbg1.png</file>
+    <file>loginbg2.png</file>
+    <file>more.png</file>
+    <file>note.png</file>
+    <file>order.png</file>
+    <file>reeor.png</file>
+    <file>registerbg.png</file>
+    <file>res.qrc</file>
+    <file>settings2.png</file>
+    <file>time.png</file>
+    <file>user.png</file>
+  </qresource>
+</RCC>
