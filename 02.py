@@ -37,6 +37,7 @@ class FirstMainWin(QMainWindow):
         edit1 = QTextEdit(self)
         edit1.move(120, 200)
 
+
         label3 = QLabel(self)
         label3.setText('登陆')
         label3.setStyleSheet("font-size:20px;")
